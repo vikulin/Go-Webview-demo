@@ -13,3 +13,5 @@ $ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w
 ```
 
 Finally add dll files from dll/x64 folder.
+
+![2021-04-01_21h24_15](https://user-images.githubusercontent.com/743622/113338478-d4ee4e00-9331-11eb-864c-9a306e0356e0.png)
