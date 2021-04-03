@@ -1,5 +1,13 @@
 # Go-Webview-demo
 
+```
+GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ go get github.com/webview/webview
+```
+
+```
+$ GOOS=linux GOARCH=amd64 go get github.com/webview/webview
+```
+
 Cross build with debug console:
 
 ```
