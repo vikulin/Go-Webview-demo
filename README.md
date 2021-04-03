@@ -8,8 +8,14 @@ $ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w
 
 Cross build without debug console:
 
+**x86_64**
+
 ```
 $ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ go build -ldflags "-H windowsgui"
+```
+**x86**
+```
+$ GOOS=windows GOARCH=386 CGO_ENABLED=1 CC=i686-w64-mingw32-gcc    CXX=i686-w64-mingw32-g++ go build -ldflags "-H windowsgui"
 ```
 
 Finally add dll files from dll/x64 folder.
